@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "PartSearch",
+  "version": "2",
+  "description": "Search highlighted part number in your favorite distributor",
+
+  "action": {
+    "default_title": "PartSearch",
+    "default_icon": "icons/search-32.png"
+  },
+
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "options_page": "options.html",
+
+  "icons": {
+    "16": "icons/search-16.png",
+    "32": "icons/search-32.png",
+    "48": "icons/search-48.png",
+    "96": "icons/search-96.png"
+  }
+}
